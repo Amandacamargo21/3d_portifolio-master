@@ -13,13 +13,15 @@ import {
   carolphoto,
   vanessaphoto,
   publicacoesonline_logo,
+  heli,
+  terra,
 } from '../assets'
 
 export const navLinks = [
-  {
-    id: 'language',
-    title: 'Language',
-  },
+  // {
+  //   id: 'language',
+  //   title: 'Language',
+  // },
   {
     id: 'about',
     title: 'About',
@@ -48,18 +50,34 @@ const services = [
     icon: creator,
   },
   {
-    title: 'Junior Database Analist',
+    title: 'Database Analist',
     icon: creator,
   },
 ]
 
 const experiences = [
   {
+    title: 'Backend developer/Systems analyst',
+    company_name: 'Helisul Aviação',
+    icon: heli,
+    iconBg: '#383E56',
+    date: 'August 2024 - Present',
+    points: [
+      'Developing backend solutions with C# .NET and mobile features using Kotlin, focusing on performance and scalability.',
+      'Creating responsive interfaces with JavaScript, HTML, and CSS to ensure a seamless user experience.',
+      'Integrating APIs and backend services with Node.js to enhance interoperability with external platforms.',
+      'Managing projects independently, overseeing everything from planning to deployment while ensuring quality and deadlines.',
+      'Continuously testing and monitoring systems to maintain stability and quickly resolve production issues.',
+      'Designing modular and sustainable code architectures, keeping scalability and long-term maintainability in mind.',
+      'Collaborating closely with stakeholders to align deliveries with business goals, implementing new features and improvements regularly.'
+    ],
+  },
+  {
     title: 'Fullstack developer',
     company_name: 'Publicações Online',
     icon: publicacoesonline_logo,
     iconBg: '#383E56',
-    date: 'July 2023 - Present',
+    date: 'July 2023 - August 2024',
     points: [
       'Collaborating with cross-functional teams, I develop effective software solutions in Php, Javascript, Html, and CSS.',
       'I conduct tests to ensure software quality and continuously monitor system integrity',
@@ -81,7 +99,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Frontend Freelancer',
+    title: 'Freelancer Developer',
     company_name: 'SevenTech',
     icon: L,
     iconBg: '#E6DEDD',
@@ -144,7 +162,7 @@ const projects = [
     image: carol,
     source_code_link:
       'https://github.com/Amandacamargo21/Carol-Castro-MakeUp.git',
-    project_link: 'https://carol-castro-make-up.vercel.app/',
+    project_link: 'https://makeupbycarolinecastro.com',
   },
   {
     name: 'Teilor Advocacia',
@@ -173,30 +191,26 @@ const projects = [
     project_link: 'https://teilor-advocacia.vercel.app/',
   },
   {
-    name: 'Netlix clone',
+    name: 'Terravia',
     description:
-      'NetflixClone is a React-based project that replicates the popular streaming platform Netflix. Developed for learning purposes, it utilizes the "Movie Database" API to provide a wide range of movies and TV shows. The website is designed to be responsive, ensuring a seamless user experience across different devices. Users can create profiles, personalize their preferences, and receive tailored recommendations. NetflixClone demonstrates React skills and showcases the creation of a modern and interactive movie streaming website.',
+      'Developed with the aim of providing a robust platform for the sale of agricultural and road implements, focusing on product display, quote requests, and building business partnerships. The responsive design ensures the site is accessible on any device, from desktops to smartphones, allowing customers to easily browse product categories. Features such as interactive catalogs, quick quote forms, and a dedicated area for corporate partnerships were implemented to streamline the purchasing process and strengthen the company’s business relationships.',
     tags: [
       {
-        name: 'React',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'ApiMovieDatabase',
-        color: 'blue-text-gradient',
-      },
-      {
         name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS/SCSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'CSS',
+        name: 'Javascript',
         color: 'pink-text-gradient',
       },
     ],
-    image: netflix,
-    source_code_link: 'https://github.com/Amandacamargo21/Netflix-Clone.git',
-    project_link: 'https://netflix-clone-flame-ten.vercel.app/',
+    image: terra,
+    source_code_link: 'https://github.com/Amandacamargo21/Implenovo',
+    project_link: 'https://terravia.vercel.app/',
   },
   {
     name: 'Cara Store',

@@ -12,12 +12,14 @@ import loja from './loja.png'
 import all from './company/all.png'
 import L from './company/L.png'
 import publicacoesonline_logo from './company/publicacoesonline_logo.jpeg'
+import heli from './company/heli.png'
 
 import carol from './carol.png'
 import teilor from './teilor.png'
 import netflix from './netflix.png'
 import carolphoto from './carolphoto.png'
 import vanessaphoto from './vanessaphoto.png'
+import terra from './terra.png'
 
 export {
   logo,
@@ -37,5 +39,7 @@ export {
   netflix,
   carolphoto,
   vanessaphoto,
-  publicacoesonline_logo
+  publicacoesonline_logo,
+  heli,
+  terra
 }
