@@ -31,9 +31,16 @@ export const navLinks = [
     title: 'Work',
   },
   {
+    id: 'github',
+    title: 'Github',
+    url: 'https://github.com/amandacamargo21'
+  },
+  {
     id: 'contact',
     title: 'Contact',
+    url: 'https://w.app/ql10ti'
   },
+  
 ]
 
 const services = [

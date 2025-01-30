@@ -11,7 +11,10 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
+  const whatsappNumber = "https://w.app/ql10ti";
+
   return (
+    <>
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
@@ -38,7 +41,13 @@ const Navbar = () => {
                 font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a 
+                href={link.url ? link.url : `#${link.id}`} 
+                target={link.url ? "_blank" : ""} 
+                rel="noopener noreferrer"
+              >
+                {link.title}
+              </a>
           </li>
           ))}
         </ul>
@@ -75,6 +84,20 @@ const Navbar = () => {
 
       </div>
    </nav>
+    {/* Ícone fixo do WhatsApp */}
+    <a
+        href={`https://w.app/ql10ti`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-8 right-8 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-10"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          className="w-12 h-12"
+        />
+      </a>
+   </>
   )
 }
 
