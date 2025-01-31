@@ -15,13 +15,11 @@ import {
   publicacoesonline_logo,
   heli,
   terra,
+  fp
 } from '../assets'
 
 export const navLinks = [
-  // {
-  //   id: 'language',
-  //   title: 'Language',
-  // },
+
   {
     id: 'about',
     title: 'About',
@@ -145,53 +143,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Carol Castro MakeUp',
+    name: 'Família Provedor',
     description:
-      'The website is designed with responsiveness in mind, ensuring a seamless experience across different devices and screen sizes. The visual design not only captures the essence of the clients brand identity but also ensures a consistent and engaging experience for visitors. The project showcases a strong commitment to delivering a high-quality, user-centric website that highlights the makeup artists services and expertise. With a combination of HTML, CSS, and JavaScript libraries, the site incorporates smooth scrolling and captivating image sliders.',
+      "The Família Provedor Church website was designed to provide visitors with an intuitive and engaging experience. With a fully responsive design, it adapts seamlessly to any device, ensuring accessibility and smooth navigation. The platform features interactive sections for events, ministries, prayer requests, and donations, fostering a closer connection between the church and its community. Additionally, strategic features such as contact forms, online giving, and dynamic content updates enhance engagement and encourage active participation from members.",
     tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Javascript',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'PHP',
-        color: 'blue-text-gradient',
-      },
+      { name: 'HTML', color: 'blue-text-gradient' },
+      { name: 'CSS', color: 'green-text-gradient' },
+      { name: 'JavaScript', color: 'pink-text-gradient' },
+      { name: 'PHP', color: 'blue-text-gradient' },
+    ],
+    image: fp,
+    source_code_link: 'https://github.com/Amandacamargo21',
+    project_link: 'https://familiaprovedor.com.br/',
+  },
+  {
+    name: 'Caroline Castro MakeUp',
+    description:
+      "Designed to offer a seamless experience across all devices, the Carol Castro MakeUp website reflects the brand’s visual identity while providing intuitive navigation. The project highlights the makeup artist’s services and expertise with a user-centered, responsive design. Technologies such as HTML, CSS, and JavaScript libraries were used to create smooth scrolling effects and immersive image sliders, ensuring a professional and captivating digital presence.",
+    tags: [
+      { name: 'HTML', color: 'blue-text-gradient' },
+      { name: 'CSS', color: 'green-text-gradient' },
+      { name: 'JavaScript', color: 'pink-text-gradient' },
+      { name: 'PHP', color: 'blue-text-gradient' },
     ],
     image: carol,
-    source_code_link:
-      'https://github.com/Amandacamargo21/Carol-Castro-MakeUp.git',
-    project_link: 'https://makeupbycarolinecastro.com',
+    source_code_link: 'https://github.com/Amandacamargo21/Carol-Castro-MakeUp.git',
+    project_link: 'https://www.makeupbycarolinecastro.com/',
   },
   {
     name: 'Teilor Advocacia',
     description:
-      'This is responsive website designed to provide a user-friendly experience. With a modern and intuitive design, the site adapts to different devices, ensuring its functionality on all devices. It features clear navigation, relevant content, attractive design, and interactive features. Additionally, the site provides information about the companys services, areas of expertise, team of professionals, and location. Responsiveness and user experience are prioritized in this project, aiming to deliver a positive experience for users interested in the services',
+      "With a modern and responsive design, the Teilor Advocacia website delivers a user-friendly experience on any device. It was developed to clearly present the firm's services, practice areas, and professional team, ensuring that visitors can easily find the information they need. A simplified navigation structure, relevant content, and sophisticated design position the firm as a trusted authority in its field, reinforcing credibility and professionalism.",
     tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'JQuery',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Javascript',
-        color: 'pink-text-gradient',
-      },
+      { name: 'HTML', color: 'blue-text-gradient' },
+      { name: 'CSS', color: 'green-text-gradient' },
+      { name: 'JQuery', color: 'pink-text-gradient' },
+      { name: 'JavaScript', color: 'pink-text-gradient' },
     ],
     image: teilor,
     source_code_link: 'https://github.com/Amandacamargo21/Teilor-Advocacia.git',
@@ -200,48 +187,17 @@ const projects = [
   {
     name: 'Terravia',
     description:
-      'Developed with the aim of providing a robust platform for the sale of agricultural and road implements, focusing on product display, quote requests, and building business partnerships. The responsive design ensures the site is accessible on any device, from desktops to smartphones, allowing customers to easily browse product categories. Features such as interactive catalogs, quick quote forms, and a dedicated area for corporate partnerships were implemented to streamline the purchasing process and strengthen the company’s business relationships.',
+      "Built to serve as a robust platform for the sale of agricultural and road equipment, the Terravia website focuses on product showcasing, quote requests, and business partnerships. Its responsive design ensures accessibility across all devices, from desktops to smartphones, allowing customers to browse product categories with ease. Interactive catalogs, quick quote request forms, and a dedicated corporate partnership section streamline the purchasing process and strengthen the company's business relationships.",
     tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS/SCSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Javascript',
-        color: 'pink-text-gradient',
-      },
+      { name: 'HTML', color: 'blue-text-gradient' },
+      { name: 'CSS/SCSS', color: 'green-text-gradient' },
+      { name: 'JavaScript', color: 'pink-text-gradient' },
     ],
     image: terra,
     source_code_link: 'https://github.com/Amandacamargo21/Implenovo',
     project_link: 'https://terravia.vercel.app/',
   },
-  {
-    name: 'Cara Store',
-    description:
-      'This responsive app showcases a visually appealing website design with a stylish header, user-friendly navigation, and adaptability. Key features like free shipping, online ordering, promotions, and 24/7 support are highlighted with icons and descriptions. It presents featured products with images, descriptions, ratings, and prices, allowing users to add items to their cart. Catchy banners promote special offers. Overall, it provides a delightful user experience, engaging users to explore and shop on the website.',
-    tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS/SCSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Javascript',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: loja,
-    source_code_link:
-      'https://github.com/Amandacamargo21/LojaOnline--Responsivo-.git',
-    project_link: 'https://loja-online-9wuw.vercel.app/',
-  },
-]
+];
+
 
 export { services, experiences, testimonials, projects }

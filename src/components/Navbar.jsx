@@ -11,8 +11,6 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const whatsappNumber = "https://w.app/ql10ti";
-
   return (
     <>
     <nav
@@ -75,7 +73,13 @@ const Navbar = () => {
                 setActive(link.title);
               }}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a 
+                href={link.url ? link.url : `#${link.id}`} 
+                target={link.url ? "_blank" : ""} 
+                rel="noopener noreferrer"
+              >
+                {link.title}
+              </a>
           </li>
           ))}
         </ul>

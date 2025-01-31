@@ -20,6 +20,7 @@ import netflix from './netflix.png'
 import carolphoto from './carolphoto.png'
 import vanessaphoto from './vanessaphoto.png'
 import terra from './terra.png'
+import fp from './fp.png'
 
 export {
   logo,
@@ -41,5 +42,6 @@ export {
   vanessaphoto,
   publicacoesonline_logo,
   heli,
-  terra
+  terra,
+  fp
 }
